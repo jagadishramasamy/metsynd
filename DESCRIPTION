@@ -1,0 +1,13 @@
+Package: metsjuly
+Type: Package
+Title: Diagnosis Of Metabolic Syndrome
+Version: 0.1.0
+Author: Jagadish Ramasamy <iamajagankmr@gmail.com>
+Maintainer: Jagadish Ramasamy <iamajagankmr@gmail.com>
+Description: This package will be used to diagnose metabolic syndrome.
+    This is based on the NCEPATPIII guidelines and IDF criteria.
+    This package will be useful in clinics for patients with high index of suspicion.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true 
+RoxygenNote: 7.2.3
