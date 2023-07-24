@@ -7,6 +7,7 @@
 #'
 #' @return the output from code
 #' @export
+#' @importFrom dplyr case_when
 #'
 #' @examples
 #' mets("Jagadish")
