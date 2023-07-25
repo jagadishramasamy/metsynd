@@ -7,14 +7,8 @@
 mets(x)
 }
 \arguments{
-\item{x}{the name of the person to say hi to}
-}
-\value{
-the output from code
+\item{x}{x is the data}
 }
 \description{
-Diagnosis of Metabolic Syndrome
-}
-\examples{
-mets("Jagadish")
+This will be used to diagnose Metabolic syndrome
 }

@@ -1,10 +1,10 @@
 #' Sample data for Analysis
 #'
-#' @param path to filename
+#' @param path path to filename
 #' @description
 #' A simple dataset to test and run the code
 #'
-#' @return a \code{data.frame} which includes:
+#' @return a \code{tibble} which includes:
 #' \describe{
 #' \item{Gender}{Gender - Male or Female}
 #' \item{Wasist circumference cm}{Waist circumference in cm}
@@ -19,7 +19,8 @@
 #' @importFrom readr read_csv
 #' @examples
 #' csv = system.file("extdata","Data.csv", package="metsjuly")
-#' sample_data(csv )
-sample_data = function(path){
-  readr::read_csv(path )
+#' sample_read(csv)
+sample_read = function(path){
+  readr::read_csv(path)
 }
+
