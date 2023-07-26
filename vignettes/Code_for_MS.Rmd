@@ -1,5 +1,5 @@
 ---
-title: " Code_for_MS"
+title: "Code_for_MS"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Code_for_MS}
@@ -15,5 +15,5 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(metsjuly)
+library(metsynd)
 ```

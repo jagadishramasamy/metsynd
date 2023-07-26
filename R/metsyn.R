@@ -12,7 +12,7 @@
 #' @examples
 
 
- mets <- function(x) {case_when((x$Gender=="Male" & x$`Waist circumference cm`>=102 & x$`HDLC, mg/dL`< 40 &
+ metsynd <- function(x) {case_when((x$Gender=="Male" & x$`Waist circumference cm`>=102 & x$`HDLC, mg/dL`< 40 &
                            (x$`Triglycerides, mg/dL` >= 150 |x$`Fasting plasma glucose, mg/dL` >= 100 | x$`Systolic BP` >= 130 | x$`Diastolic BP` >= 85))~'Yes',
                          (x$Gender=="Male" & x$`Waist circumference cm`>=102 & x$`Triglycerides, mg/dL` >= 150  &
                             (x$Gender=="Male" & x$`HDLC, mg/dL`< 40|x$`Fasting plasma glucose, mg/dL` >= 100 | x$`Systolic BP` >= 130 | x$`Diastolic BP` >= 85))~'Yes',
