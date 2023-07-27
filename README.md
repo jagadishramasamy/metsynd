@@ -17,7 +17,7 @@ quick diagnosis of metabolic syndrome.
 
 ## Installation
 
-You can install the development version of metsynd like so:
+You can install this package by:
 
 ``` r
 # install.packages("metsynd")
