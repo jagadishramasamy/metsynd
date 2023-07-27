@@ -25,6 +25,6 @@ a \code{tibble} which includes:
 A simple dataset to test and run the code
 }
 \examples{
-csv = system.file("extdata","Data.csv", package="metsjuly")
+csv = system.file("extdata","Data.csv", package="metsynd")
 sample_read(csv)
 }

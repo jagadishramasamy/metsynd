@@ -18,7 +18,7 @@
 #'
 #' @importFrom readr read_csv
 #' @examples
-#' csv = system.file("extdata","Data.csv", package="metsjuly")
+#' csv = system.file("extdata","Data.csv", package="metsynd")
 #' sample_read(csv)
 sample_read = function(path){
   readr::read_csv(path)
