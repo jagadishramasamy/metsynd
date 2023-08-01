@@ -22,7 +22,7 @@ This package will be used to diagnose metabolic syndrome. The criteria used to d
 
 ## Installation
 
-You can install this package by 
+You can install this package by the following function
 
 ``` r
 # install.packages("metsynd")

@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# metsynd
+# MetabolicSyndrome
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -20,14 +20,14 @@ quick diagnosis of metabolic syndrome.
 You can install this package by the following function
 
 ``` r
-# install.packages("metsynd")
+# install.packages("MetabolicSyndrome")
 ```
 
 ## Example
 
 ``` r
-library(metsynd)
+library(MetabolicSyndrome)
 ## basic example code
 ```
 
-    metsynd(Data)
+    MetabolicSyndrome(Data)
