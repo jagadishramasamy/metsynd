@@ -1,15 +1,24 @@
 #' @title Diagnosis of Metabolic Syndrome
 #'
-#' @description This will be used to diagnose Metabolic syndrome
+#' @description This package will be used to diagnose metabolic syndrome.The criteria used to diagnose is based on the National Cholesterol Education Program - Adult Treatment Panel -III guidelines (NCEP-ATP-III). It is comprised of multiple parameters which includes waist circumference, systolic blood pressure, diastolic blood pressure, fasting plasma glucose, triglycerides and high-density lipoprotein cholesterol. Hence, this package will be useful in the healthcare settings for easy and quick diagnosis of metabolic syndrome.
 #'
 #'
-#' @param x
-#' x is the data
+#' @param x is the data set containing the following parameters such as
+#' @param Gender   as Male or Female
+#' @param Waist_Circumference Waist Circumference in cm
+#' @param Triglycerides Triglycerides in mg/dL
+#' @param Fasting_plasma_glucose Fasting_plasma_glucose in mg/dL
+#' @param HDL-cholesterol HDL-cholesterol in mg/dL
+#' @param Systolic_BP Systolic BP in mm of Hg
+#' @param Diastolic_BP Diastolic BP in mm of Hg
+#'
+#'
 #' @return
 #' @export
 #' @importFrom dplyr case_when
 #'
 #' @examples
+#' MetabolicSyndrome(x)
 
 
 MetabolicSyndrome <- function(x) {case_when((x$Gender=="Male" & x$`Waist circumference cm`>=102 & x$`HDLC, mg/dL`< 40 &

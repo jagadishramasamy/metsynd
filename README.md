@@ -30,4 +30,4 @@ library(MetabolicSyndrome)
 ## basic example code
 ```
 
-    MetabolicSyndrome(Data)
+    MetabolicSyndrome(x)

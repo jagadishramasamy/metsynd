@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# metsynd
+# MetabolicSyndrome
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -25,19 +25,19 @@ This package will be used to diagnose metabolic syndrome. The criteria used to d
 You can install this package by the following function
 
 ``` r
-# install.packages("metsynd")
+# install.packages("MetabolicSyndrome")
 ```
 
 ## Example
 
 
 ```{r example}
-library(metsynd)
+library(MetabolicSyndrome)
 ## basic example code
 ```
 
 
 
 ```
-metsynd(Data)
+MetabolicSyndrome(x)
 ```
