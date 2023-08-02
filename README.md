@@ -41,7 +41,7 @@ Use the exact column names as specified below
 
 Gender - Gender in Male or Female
 
-WC -Wasit Circumference in cm
+WC -Waist Circumference in cm
 
 TG - Triglycerides in mg/dL
 
