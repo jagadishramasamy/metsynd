@@ -1,4 +1,4 @@
-﻿Gender,Waist circumference cm,"Triglycerides, mg/dL","Fasting plasma glucose, mg/dL","HDLC, mg/dL",Systolic BP,Diastolic BP
+Gender,WC,TG,FPG,HDLC,SBP,DBP
 Female,63.8,54,72,72,108,67
 Female,117.9,86,56,56,99,54
 Male,120.4,101,33,33,107,67

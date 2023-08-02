@@ -7,8 +7,7 @@
 MetabolicSyndrome(x)
 }
 \arguments{
-\item{x}{is the data set containing the following parameters such as Gender (Male or Female), Waist Circumference in cm, Triglycerides in mg/dL,Fasting_plasma_glucose in mg/dL,
-HDL-cholesterol in mg/dL, Systolic BP in mm of Hg, Diastolic BP in mm of Hg}
+\item{x}{is the data frame containing the column names excatly specified.}
 }
 \description{
 This package will be used to diagnose metabolic syndrome.The criteria used to diagnose is based on the National Cholesterol Education Program - Adult Treatment Panel -III guidelines (NCEP-ATP-III). It is comprised of multiple parameters which includes waist circumference, systolic blood pressure, diastolic blood pressure, fasting plasma glucose, triglycerides and high-density lipoprotein cholesterol. Hence, this package will be useful in the healthcare settings for easy and quick diagnosis of metabolic syndrome.
