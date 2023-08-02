@@ -27,7 +27,28 @@ You can install this package by the following function
 
 ``` r
 library(MetabolicSyndrome)
-## basic example code
 ```
 
     MetabolicSyndrome(x)
+
+``` r
+# x is the dataframe containing all the parameters required to dignose metabolic syndrome.
+```
+
+## Description of the dataframe (x)
+
+Use the exact column names as specified below
+
+Gender - Gender in Male or Female
+
+WC -Wasit Circumference in cm
+
+TG - Triglycerides in mg/dL
+
+HDLC - High Density Lipoprotein Cholesterol in mg/dL
+
+SBP - Systolic BP in mm Hg
+
+DBP - Diastolic BP in mm Hg
+
+FPG - Fasting plasma glucose in mg/dL
