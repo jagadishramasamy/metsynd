@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# MetabolicSyndrome
+# Metabolic Syndrome 
 
 <!-- badges: start -->
 <!-- badges: end -->
