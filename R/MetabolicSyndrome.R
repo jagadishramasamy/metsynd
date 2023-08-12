@@ -3,9 +3,9 @@
 #' @description This package will be used to diagnose metabolic syndrome.The criteria used to diagnose is based on the National Cholesterol Education Program - Adult Treatment Panel -III guidelines (NCEP-ATP-III). It is comprised of multiple parameters which includes waist circumference, systolic blood pressure, diastolic blood pressure, fasting plasma glucose, triglycerides and high-density lipoprotein cholesterol. Hence, this package will be useful in the healthcare settings for easy and quick diagnosis of metabolic syndrome.
 #'
 #'
-#' @param x is the data frame containing the column names excatly specified.
+#' @param x a data frame with column names as exactly specified.
 #'
-#' @return
+#' @return Yes or No
 #' @export
 #' @importFrom dplyr case_when
 #'
