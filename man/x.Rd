@@ -5,7 +5,7 @@
 \alias{x}
 \title{An example data frame}
 \format{
-A data frame with parameters needed to diganose metabolic syndrome.
+A data frame with parameters needed to diagnose metabolic syndrome.
 \describe{
   \item{Gender}{Gender in Male or Female}
   \item{WC}{Wasit Circumference in cm}

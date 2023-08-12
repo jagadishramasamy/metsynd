@@ -14,7 +14,6 @@ BugReports: https://github.com/jagadishramasamy/metsynd/issues
 Suggests: 
     knitr,
     rmarkdown
-VignetteBuilder: knitr
 Imports: 
     dplyr
 Depends: 
