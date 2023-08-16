@@ -15,7 +15,7 @@ pressure, diastolic blood pressure, fasting plasma glucose,
 triglycerides and high-density lipoprotein cholesterol. Hence, this
 package will be useful in the healthcare settings for easy and quick
 diagnosis of metabolic syndrome. The modified ATP-III criteria for the
-diagnosis is described by Grundy et al ., (2005)
+diagnosis is described by Grundy et al., (2005)
 <doi:10.1161/CIRCULATIONAHA.105.169404>.
 
 ## Installation
