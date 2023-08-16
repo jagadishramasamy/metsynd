@@ -1,6 +1,6 @@
 #' @title Diagnosis of Metabolic Syndrome
 #'
-#' @description This package will be used to diagnose metabolic syndrome.The criteria used to diagnose is based on the National Cholesterol Education Program - Adult Treatment Panel -III guidelines (NCEP-ATP-III). It is comprised of multiple parameters which includes waist circumference, systolic blood pressure, diastolic blood pressure, fasting plasma glucose, triglycerides and high-density lipoprotein cholesterol. Hence, this package will be useful in the healthcare settings for easy and quick diagnosis of metabolic syndrome.
+#' @description This package will be used to diagnose metabolic syndrome. The criteria used to diagnose is based on the modified Adult Treatment Panel -III guidelines (ATP-III) guidelines proposed by American Heart Association and National Heart, Lung and Blood Institute. It is comprised of multiple parameters which includes waist circumference, systolic blood pressure, diastolic blood pressure, fasting plasma glucose, triglycerides and high-density lipoprotein cholesterol. Hence, this package will be useful in the healthcare settings for easy and quick diagnosis of metabolic syndrome. The modified ATP-III criteria for the diagnosis is described by Grundy et al ., (2005) <doi:10.1161/CIRCULATIONAHA.105.169404>.
 #'
 #'
 #' @param x a data frame with column names as exactly specified.
