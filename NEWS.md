@@ -1,3 +1,3 @@
-# MetabolicSyndrome 0.1.1
+# MetabolicSyndrome 0.1.2
 
 * Initial CRAN submission.
